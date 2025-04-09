@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="adactin.utils.ExtentTestNGITestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="adactin.test.BookingTest">
+        <methods>
+          <include name="testDetails"/>
+          <include name="setUpPages"/>
+          <include name="testBookHotel"/>
+          <include name="setup"/>
+          <include name="screenshot"/>
+          <include name="tearDownTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- adactin.test.BookingTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

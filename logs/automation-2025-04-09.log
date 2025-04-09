@@ -1,0 +1,50 @@
+11:05:22.147 [main] INFO  adactin.pages.BookingPage - Entered first name: Adam
+11:05:22.314 [main] INFO  adactin.pages.BookingPage - Entered last name: Marcus
+11:05:22.432 [main] INFO  adactin.pages.BookingPage - Entered address: addr 123
+11:05:22.530 [main] INFO  adactin.pages.BookingPage - Entered card number: 123456
+11:05:22.612 [main] INFO  adactin.pages.BookingPage - Selected card type: VISA
+11:05:22.732 [main] INFO  adactin.pages.BookingPage - Selected expiry month: May
+11:05:23.068 [main] INFO  adactin.pages.BookingPage - Selected expiry year: 2025
+11:05:23.156 [main] INFO  adactin.pages.BookingPage - Entered CVV: 121
+11:05:23.258 [main] INFO  adactin.pages.BookingPage - Clicked Book Now button
+11:05:23.318 [main] INFO  adactin.test.BookingTest - Booking failed as expected with invalid card details-Please Enter your 16 Digit Credit Card Number
+11:05:28.503 [main] INFO  adactin.test.BookedItineraryTest - =====> Starting testBookedItinerariLink =====
+11:05:28.744 [main] INFO  adactin.pages.LoginPage - Entered username: RamAdmin1
+11:05:28.843 [main] INFO  adactin.pages.LoginPage - Entered password: [HIDDEN]
+11:05:29.778 [main] INFO  adactin.pages.LoginPage - Clicked login button
+11:05:40.944 [main] INFO  adactin.pages.BookedItineraryPage - Clicked on 'Booked Itinerary' link
+11:05:40.944 [main] INFO  adactin.test.BookedItineraryTest - Clicked on Booked Itinerary link
+11:05:40.955 [main] INFO  adactin.test.BookedItineraryTest - ===== Starting verifyDetails =====
+11:05:41.050 [main] INFO  adactin.pages.BookedItineraryPage - 'Cancel Selected' button visible: true
+11:05:41.052 [main] INFO  adactin.test.BookedItineraryTest - Cancel Selected button visible: true
+11:05:41.060 [main] INFO  adactin.test.BookedItineraryTest - ===== Starting testCancelBookingWithCheckBox =====
+11:05:41.257 [main] INFO  adactin.pages.BookedItineraryPage - Number of checkboxes (bookings): 6
+11:05:41.257 [main] INFO  adactin.test.BookedItineraryTest - Before count: 6
+11:05:41.301 [main] INFO  adactin.pages.BookedItineraryPage - Single booking checkbox visible: true
+11:05:41.456 [main] INFO  adactin.pages.BookedItineraryPage - Clicked on booking checkbox
+11:05:41.599 [main] INFO  adactin.pages.BookedItineraryPage - Clicked on 'Cancel Selected' button
+11:05:41.616 [main] INFO  adactin.pages.BookedItineraryPage - Alert handled. Text: Are you sure want to Cancel Selected?.
+11:05:41.616 [main] INFO  adactin.test.BookedItineraryTest - Alert Message: Are you sure want to Cancel Selected?.
+11:06:28.360 [main] INFO  adactin.pages.BookedItineraryPage - Number of checkboxes (bookings): 5
+11:06:28.361 [main] INFO  adactin.test.BookedItineraryTest - After count: 5
+11:06:28.369 [main] INFO  adactin.test.BookedItineraryTest - ===== Starting testCancelWithOrderBtn =====
+11:06:28.494 [main] INFO  adactin.pages.BookedItineraryPage - Number of checkboxes (bookings): 5
+11:06:28.495 [main] INFO  adactin.test.BookedItineraryTest - Before count: 5
+11:06:28.622 [main] INFO  adactin.pages.BookedItineraryPage - Clicked cancel button for specific order
+11:06:28.633 [main] INFO  adactin.pages.BookedItineraryPage - Order cancel alert handled. Text: Are you sure, you want to cancel the booking with Order no. 356B1998Z4?
+11:06:28.633 [main] INFO  adactin.test.BookedItineraryTest - Alert Message: Are you sure, you want to cancel the booking with Order no. 356B1998Z4?
+11:06:59.588 [main] INFO  adactin.pages.BookedItineraryPage - Cancellation confirmation text: The booking has been cancelled.
+11:06:59.588 [main] INFO  adactin.test.BookedItineraryTest - Cancellation Text: The booking has been cancelled.
+11:06:59.685 [main] INFO  adactin.pages.BookedItineraryPage - Number of checkboxes (bookings): 4
+11:06:59.686 [main] INFO  adactin.test.BookedItineraryTest - After count: 4
+11:06:59.689 [main] INFO  adactin.test.BookedItineraryTest - ===== Starting testSearchOrder =====
+11:06:59.793 [main] INFO  adactin.pages.BookedItineraryPage - Clicked order cancel to trigger alert
+11:06:59.805 [main] INFO  adactin.pages.BookedItineraryPage - Dismissed alert after extracting order number. Text: Are you sure, you want to cancel the booking with Order no. 340QIE3W7S?
+11:06:59.806 [main] INFO  adactin.pages.BookedItineraryPage - Extracted order number: 340QIE3W7S
+11:06:59.806 [main] INFO  adactin.test.BookedItineraryTest - Extracted Order ID: 340QIE3W7S
+11:07:19.851 [main] INFO  adactin.pages.BookedItineraryPage - Entered order ID in search field: 340QIE3W7S
+11:07:52.681 [main] INFO  adactin.pages.BookedItineraryPage - Clicked Go button to search order
+11:07:52.742 [main] INFO  adactin.pages.BookedItineraryPage - Number of checkboxes (bookings): 1
+11:07:52.743 [main] INFO  adactin.test.BookedItineraryTest - Before cancel count: 1
+11:07:52.838 [main] INFO  adactin.pages.BookedItineraryPage - Clicked cancel button for specific order
+11:07:52.851 [main] INFO  adactin.pages.BookedItineraryPage - Order cancel alert handled. Text: Are you sure, you want to cancel the booking with Order no. 340QIE3W7S?

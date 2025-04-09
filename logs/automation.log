@@ -1,0 +1,12 @@
+11:07:52.858 [main] INFO  adactin.test.BookedItineraryTest - ===== Starting testSelectAllCheckbox =====
+11:08:21.372 [main] INFO  adactin.pages.BookedItineraryPage - Selected 'Select All' checkbox
+11:08:21.515 [main] INFO  adactin.pages.BookedItineraryPage - Clicked on 'Cancel Selected' button
+11:08:21.528 [main] INFO  adactin.pages.BookedItineraryPage - Alert handled. Text: Are you sure want to Cancel Selected?.
+11:08:21.529 [main] INFO  adactin.test.BookedItineraryTest - Selected all and clicked cancel
+11:08:21.539 [main] INFO  adactin.test.BookedItineraryTest - ===== Starting testLogout =====
+11:09:09.683 [main] INFO  adactin.pages.BookedItineraryPage - Clicked on Logout link
+11:09:09.730 [main] INFO  adactin.pages.BookedItineraryPage - Logout success message: You have successfully logged out. Click here to login again
+11:09:09.730 [main] INFO  adactin.test.BookedItineraryTest - Logout message: You have successfully logged out. Click here to login again
+11:09:09.735 [main] INFO  adactin.test.BookedItineraryTest - ===== Starting testLoginAgain =====
+11:09:10.108 [main] INFO  adactin.pages.BookedItineraryPage - Clicked on 'Login Again' link
+11:09:10.123 [main] INFO  adactin.test.BookedItineraryTest - Page Title after login again: Adactin.com - Hotel Reservation System

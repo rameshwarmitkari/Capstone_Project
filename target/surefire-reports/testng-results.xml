@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="25" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-09T11:03:16 IST" name="Suite" finished-at="2025-04-09T11:09:12 IST" duration-ms="355172">
+    <groups>
+      <group name="regression">
+        <method signature="BookedItineraryTest.testBookedItinerariLink()[pri:1, instance:adactin.test.BookedItineraryTest@3a5ecce3]" name="testBookedItinerariLink" class="adactin.test.BookedItineraryTest"/>
+        <method signature="BookingTest.testBookHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:adactin.test.BookingTest@6155d082]" name="testBookHotel" class="adactin.test.BookingTest"/>
+        <method signature="BookedItineraryTest.verifyDetails()[pri:2, instance:adactin.test.BookedItineraryTest@3a5ecce3]" name="verifyDetails" class="adactin.test.BookedItineraryTest"/>
+        <method signature="BookedItineraryTest.testCancelBookingWithCheckBox()[pri:3, instance:adactin.test.BookedItineraryTest@3a5ecce3]" name="testCancelBookingWithCheckBox" class="adactin.test.BookedItineraryTest"/>
+        <method signature="BookingTest.testDetails()[pri:3, instance:adactin.test.BookingTest@6155d082]" name="testDetails" class="adactin.test.BookingTest"/>
+        <method signature="BookedItineraryTest.testCancelWithOrderBtn()[pri:4, instance:adactin.test.BookedItineraryTest@3a5ecce3]" name="testCancelWithOrderBtn" class="adactin.test.BookedItineraryTest"/>
+        <method signature="BookingTest.testBookingWithInvalidCardDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:adactin.test.BookingTest@6155d082]" name="testBookingWithInvalidCardDetails" class="adactin.test.BookingTest"/>
+        <method signature="BookedItineraryTest.testSelectAllCehckbox()[pri:6, instance:adactin.test.BookedItineraryTest@3a5ecce3]" name="testSelectAllCehckbox" class="adactin.test.BookedItineraryTest"/>
+        <method signature="BookedItineraryTest.testLogout()[pri:7, instance:adactin.test.BookedItineraryTest@3a5ecce3]" name="testLogout" class="adactin.test.BookedItineraryTest"/>
+        <method signature="BookedItineraryTest.testLoginAgain()[pri:8, instance:adactin.test.BookedItineraryTest@3a5ecce3]" name="testLoginAgain" class="adactin.test.BookedItineraryTest"/>
+        <method signature="LoginTest.testLogo()[pri:1, instance:adactin.test.LoginTest@24111ef1]" name="testLogo" class="adactin.test.LoginTest"/>
+        <method signature="SearchHotelTest.testLinksDispay()[pri:1, instance:adactin.test.SearchHotelTest@7b94089b]" name="testLinksDispay" class="adactin.test.SearchHotelTest"/>
+        <method signature="LoginTest.isLoginBtnEnabled()[pri:2, instance:adactin.test.LoginTest@24111ef1]" name="isLoginBtnEnabled" class="adactin.test.LoginTest"/>
+        <method signature="SearchHotelTest.testSearchHotel()[pri:2, instance:adactin.test.SearchHotelTest@7b94089b]" name="testSearchHotel" class="adactin.test.SearchHotelTest"/>
+        <method signature="SearchHotelTest.bookingWithPastDate(java.lang.String,java.lang.String)[pri:3, instance:adactin.test.SearchHotelTest@7b94089b]" name="bookingWithPastDate" class="adactin.test.SearchHotelTest"/>
+        <method signature="SearchHotelTest.searchWithoutLocation()[pri:4, instance:adactin.test.SearchHotelTest@7b94089b]" name="searchWithoutLocation" class="adactin.test.SearchHotelTest"/>
+        <method signature="SearchHotelTest.testSelectHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:adactin.test.SearchHotelTest@7b94089b]" name="testSelectHotel" class="adactin.test.SearchHotelTest"/>
+        <method signature="SearchHotelTest.testWithoutSelectHotel()[pri:6, instance:adactin.test.SearchHotelTest@7b94089b]" name="testWithoutSelectHotel" class="adactin.test.SearchHotelTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="BookedItineraryTest.testBookedItinerariLink()[pri:1, instance:adactin.test.BookedItineraryTest@3a5ecce3]" name="testBookedItinerariLink" class="adactin.test.BookedItineraryTest"/>
+        <method signature="BookingTest.testBookHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:adactin.test.BookingTest@6155d082]" name="testBookHotel" class="adactin.test.BookingTest"/>
+        <method signature="BookingTest.testMyItinerary()[pri:2, instance:adactin.test.BookingTest@6155d082]" name="testMyItinerary" class="adactin.test.BookingTest"/>
+        <method signature="BookedItineraryTest.testCancelBookingWithCheckBox()[pri:3, instance:adactin.test.BookedItineraryTest@3a5ecce3]" name="testCancelBookingWithCheckBox" class="adactin.test.BookedItineraryTest"/>
+        <method signature="BookingTest.testDetails()[pri:3, instance:adactin.test.BookingTest@6155d082]" name="testDetails" class="adactin.test.BookingTest"/>
+        <method signature="BookedItineraryTest.testSearchOrder()[pri:5, instance:adactin.test.BookedItineraryTest@3a5ecce3]" name="testSearchOrder" class="adactin.test.BookedItineraryTest"/>
+        <method signature="BookedItineraryTest.testLogout()[pri:7, instance:adactin.test.BookedItineraryTest@3a5ecce3]" name="testLogout" class="adactin.test.BookedItineraryTest"/>
+        <method signature="BookedItineraryTest.testLoginAgain()[pri:8, instance:adactin.test.BookedItineraryTest@3a5ecce3]" name="testLoginAgain" class="adactin.test.BookedItineraryTest"/>
+        <method signature="LoginTest.testLogo()[pri:1, instance:adactin.test.LoginTest@24111ef1]" name="testLogo" class="adactin.test.LoginTest"/>
+        <method signature="SearchHotelTest.testLinksDispay()[pri:1, instance:adactin.test.SearchHotelTest@7b94089b]" name="testLinksDispay" class="adactin.test.SearchHotelTest"/>
+        <method signature="SearchHotelTest.testSearchHotel()[pri:2, instance:adactin.test.SearchHotelTest@7b94089b]" name="testSearchHotel" class="adactin.test.SearchHotelTest"/>
+        <method signature="SearchHotelTest.testSelectHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:adactin.test.SearchHotelTest@7b94089b]" name="testSelectHotel" class="adactin.test.SearchHotelTest"/>
+        <method signature="SearchHotelTest.testWithoutOptionalFields()[pri:7, instance:adactin.test.SearchHotelTest@7b94089b]" name="testWithoutOptionalFields" class="adactin.test.SearchHotelTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-04-09T11:03:16 IST" name="Test" finished-at="2025-04-09T11:09:12 IST" duration-ms="355172">
+      <class name="adactin.test.SearchHotelTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:03:25 IST" name="setup" finished-at="2025-04-09T11:03:29 IST" duration-ms="4185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:03:29 IST" name="setUpPages" finished-at="2025-04-09T11:03:29 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testLinksDispay()[pri:1, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:03:29 IST" name="testLinksDispay" finished-at="2025-04-09T11:03:30 IST" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLinksDispay -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:03:30 IST" name="screenshot" finished-at="2025-04-09T11:03:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLinksDispay status=SUCCESS method=SearchHotelTest.testLinksDispay()[pri:1, instance:adactin.test.SearchHotelTest@7b94089b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:03:30 IST" name="setUpPages" finished-at="2025-04-09T11:03:30 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testSearchHotel()[pri:2, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:03:30 IST" name="testSearchHotel" finished-at="2025-04-09T11:03:33 IST" duration-ms="2300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchHotel -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:03:33 IST" name="screenshot" finished-at="2025-04-09T11:03:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchHotel status=SUCCESS method=SearchHotelTest.testSearchHotel()[pri:2, instance:adactin.test.SearchHotelTest@7b94089b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:03:35 IST" name="setUpPages" finished-at="2025-04-09T11:03:35 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="bookingWithPastDate(java.lang.String,java.lang.String)[pri:3, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:03:35 IST" name="bookingWithPastDate" data-provider="pastDateData" finished-at="2025-04-09T11:03:37 IST" duration-ms="2852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10/02/2025]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11/02/2025]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingWithPastDate -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:03:37 IST" name="screenshot" finished-at="2025-04-09T11:03:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookingWithPastDate status=SUCCESS method=SearchHotelTest.bookingWithPastDate(java.lang.String,java.lang.String)[pri:3, instance:adactin.test.SearchHotelTest@7b94089b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:03:38 IST" name="setUpPages" finished-at="2025-04-09T11:03:38 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="searchWithoutLocation()[pri:4, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:03:38 IST" name="searchWithoutLocation" finished-at="2025-04-09T11:03:38 IST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWithoutLocation -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:03:38 IST" name="screenshot" finished-at="2025-04-09T11:03:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchWithoutLocation status=SUCCESS method=SearchHotelTest.searchWithoutLocation()[pri:4, instance:adactin.test.SearchHotelTest@7b94089b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:03:38 IST" name="setUpPages" finished-at="2025-04-09T11:03:38 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testSelectHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:03:38 IST" name="testSelectHotel" data-provider="userData" finished-at="2025-04-09T11:04:03 IST" duration-ms="24158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Marcus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[addr 123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567890121210]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[121]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectHotel -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:03 IST" name="screenshot" finished-at="2025-04-09T11:04:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSelectHotel status=SUCCESS method=SearchHotelTest.testSelectHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:adactin.test.SearchHotelTest@7b94089b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:03 IST" name="setUpPages" finished-at="2025-04-09T11:04:03 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testSelectHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:03 IST" name="testSelectHotel" data-provider="userData" finished-at="2025-04-09T11:04:13 IST" duration-ms="10663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Marcus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[addr 123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567890121210]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[121]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectHotel -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:13 IST" name="screenshot" finished-at="2025-04-09T11:04:13 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSelectHotel status=SUCCESS method=SearchHotelTest.testSelectHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:adactin.test.SearchHotelTest@7b94089b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:13 IST" name="setUpPages" finished-at="2025-04-09T11:04:13 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testSelectHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:13 IST" name="testSelectHotel" data-provider="userData" finished-at="2025-04-09T11:04:24 IST" duration-ms="10401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Marcus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[addr 123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567890121210]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[121]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectHotel -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:24 IST" name="screenshot" finished-at="2025-04-09T11:04:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSelectHotel status=SUCCESS method=SearchHotelTest.testSelectHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:adactin.test.SearchHotelTest@7b94089b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:24 IST" name="setUpPages" finished-at="2025-04-09T11:04:24 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testSelectHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:24 IST" name="testSelectHotel" data-provider="userData" finished-at="2025-04-09T11:04:35 IST" duration-ms="11340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Marcus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[addr 123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567890121210]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[121]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectHotel -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:35 IST" name="screenshot" finished-at="2025-04-09T11:04:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSelectHotel status=SUCCESS method=SearchHotelTest.testSelectHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:adactin.test.SearchHotelTest@7b94089b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:35 IST" name="setUpPages" finished-at="2025-04-09T11:04:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testSelectHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:35 IST" name="testSelectHotel" data-provider="userData" finished-at="2025-04-09T11:04:49 IST" duration-ms="14090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Marcus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[addr 123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567890121210]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[121]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectHotel -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:49 IST" name="screenshot" finished-at="2025-04-09T11:04:49 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSelectHotel status=SUCCESS method=SearchHotelTest.testSelectHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:adactin.test.SearchHotelTest@7b94089b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:49 IST" name="setUpPages" finished-at="2025-04-09T11:04:49 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testWithoutSelectHotel()[pri:6, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:49 IST" name="testWithoutSelectHotel" finished-at="2025-04-09T11:04:52 IST" duration-ms="2682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithoutSelectHotel -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:52 IST" name="screenshot" finished-at="2025-04-09T11:04:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWithoutSelectHotel status=SUCCESS method=SearchHotelTest.testWithoutSelectHotel()[pri:6, instance:adactin.test.SearchHotelTest@7b94089b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:52 IST" name="setUpPages" finished-at="2025-04-09T11:04:52 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testWithoutOptionalFields()[pri:7, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:52 IST" name="testWithoutOptionalFields" finished-at="2025-04-09T11:04:54 IST" duration-ms="1434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithoutOptionalFields -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:54 IST" name="screenshot" finished-at="2025-04-09T11:04:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWithoutOptionalFields status=SUCCESS method=SearchHotelTest.testWithoutOptionalFields()[pri:7, instance:adactin.test.SearchHotelTest@7b94089b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:adactin.test.SearchHotelTest@7b94089b]" started-at="2025-04-09T11:04:54 IST" name="tearDown" finished-at="2025-04-09T11:04:57 IST" duration-ms="3070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- adactin.test.SearchHotelTest -->
+      <class name="adactin.test.BookedItineraryTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:05:23 IST" name="setup" finished-at="2025-04-09T11:05:28 IST" duration-ms="4787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:05:28 IST" name="setUpPages" finished-at="2025-04-09T11:05:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testBookedItinerariLink()[pri:1, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:05:28 IST" name="testBookedItinerariLink" finished-at="2025-04-09T11:05:40 IST" duration-ms="12445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookedItinerariLink -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:05:40 IST" name="screenshot" finished-at="2025-04-09T11:05:40 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBookedItinerariLink status=SUCCESS method=BookedItineraryTest.testBookedItinerariLink()[pri:1, instance:adactin.test.BookedItineraryTest@3a5ecce3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:05:40 IST" name="setUpPages" finished-at="2025-04-09T11:05:40 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="verifyDetails()[pri:2, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:05:40 IST" name="verifyDetails" finished-at="2025-04-09T11:05:41 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDetails -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:05:41 IST" name="screenshot" finished-at="2025-04-09T11:05:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyDetails status=SUCCESS method=BookedItineraryTest.verifyDetails()[pri:2, instance:adactin.test.BookedItineraryTest@3a5ecce3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:05:41 IST" name="setUpPages" finished-at="2025-04-09T11:05:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testCancelBookingWithCheckBox()[pri:3, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:05:41 IST" name="testCancelBookingWithCheckBox" finished-at="2025-04-09T11:06:28 IST" duration-ms="47301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCancelBookingWithCheckBox -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:06:28 IST" name="screenshot" finished-at="2025-04-09T11:06:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCancelBookingWithCheckBox status=SUCCESS method=BookedItineraryTest.testCancelBookingWithCheckBox()[pri:3, instance:adactin.test.BookedItineraryTest@3a5ecce3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:06:28 IST" name="setUpPages" finished-at="2025-04-09T11:06:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testCancelWithOrderBtn()[pri:4, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:06:28 IST" name="testCancelWithOrderBtn" finished-at="2025-04-09T11:06:59 IST" duration-ms="31318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCancelWithOrderBtn -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:06:59 IST" name="screenshot" finished-at="2025-04-09T11:06:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCancelWithOrderBtn status=SUCCESS method=BookedItineraryTest.testCancelWithOrderBtn()[pri:4, instance:adactin.test.BookedItineraryTest@3a5ecce3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:06:59 IST" name="setUpPages" finished-at="2025-04-09T11:06:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testSearchOrder()[pri:5, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:06:59 IST" name="testSearchOrder" finished-at="2025-04-09T11:07:52 IST" duration-ms="53164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchOrder -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:07:52 IST" name="screenshot" finished-at="2025-04-09T11:07:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchOrder status=SUCCESS method=BookedItineraryTest.testSearchOrder()[pri:5, instance:adactin.test.BookedItineraryTest@3a5ecce3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:07:52 IST" name="setUpPages" finished-at="2025-04-09T11:07:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testSelectAllCehckbox()[pri:6, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:07:52 IST" name="testSelectAllCehckbox" finished-at="2025-04-09T11:08:21 IST" duration-ms="28672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectAllCehckbox -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:08:21 IST" name="screenshot" finished-at="2025-04-09T11:08:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSelectAllCehckbox status=SUCCESS method=BookedItineraryTest.testSelectAllCehckbox()[pri:6, instance:adactin.test.BookedItineraryTest@3a5ecce3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:08:21 IST" name="setUpPages" finished-at="2025-04-09T11:08:21 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testLogout()[pri:7, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:08:21 IST" name="testLogout" finished-at="2025-04-09T11:09:09 IST" duration-ms="48191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:09:09 IST" name="screenshot" finished-at="2025-04-09T11:09:09 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogout status=SUCCESS method=BookedItineraryTest.testLogout()[pri:7, instance:adactin.test.BookedItineraryTest@3a5ecce3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:09:09 IST" name="setUpPages" finished-at="2025-04-09T11:09:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testLoginAgain()[pri:8, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:09:09 IST" name="testLoginAgain" finished-at="2025-04-09T11:09:10 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAgain -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:09:10 IST" name="screenshot" finished-at="2025-04-09T11:09:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginAgain status=SUCCESS method=BookedItineraryTest.testLoginAgain()[pri:8, instance:adactin.test.BookedItineraryTest@3a5ecce3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:adactin.test.BookedItineraryTest@3a5ecce3]" started-at="2025-04-09T11:09:10 IST" name="tearDown" finished-at="2025-04-09T11:09:10 IST" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- adactin.test.BookedItineraryTest -->
+      <class name="adactin.test.BookingTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:adactin.test.BookingTest@6155d082]" started-at="2025-04-09T11:04:57 IST" name="setup" finished-at="2025-04-09T11:05:02 IST" duration-ms="5123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.BookingTest@6155d082]" started-at="2025-04-09T11:05:02 IST" name="setUpPages" finished-at="2025-04-09T11:05:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testBookHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:adactin.test.BookingTest@6155d082]" started-at="2025-04-09T11:05:02 IST" name="testBookHotel" data-provider="userData" finished-at="2025-04-09T11:05:09 IST" duration-ms="7431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Marcus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[addr 123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567890121210]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[121]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookHotel -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.BookingTest@6155d082]" started-at="2025-04-09T11:05:09 IST" name="screenshot" finished-at="2025-04-09T11:05:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBookHotel status=SUCCESS method=BookingTest.testBookHotel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:adactin.test.BookingTest@6155d082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.BookingTest@6155d082]" started-at="2025-04-09T11:05:09 IST" name="setUpPages" finished-at="2025-04-09T11:05:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testMyItinerary()[pri:2, instance:adactin.test.BookingTest@6155d082]" started-at="2025-04-09T11:05:09 IST" name="testMyItinerary" finished-at="2025-04-09T11:05:15 IST" depends-on-methods="adactin.test.BookingTest.testBookHotel" duration-ms="6101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyItinerary -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.BookingTest@6155d082]" started-at="2025-04-09T11:05:15 IST" name="screenshot" finished-at="2025-04-09T11:05:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMyItinerary status=SUCCESS method=BookingTest.testMyItinerary()[pri:2, instance:adactin.test.BookingTest@6155d082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.BookingTest@6155d082]" started-at="2025-04-09T11:05:15 IST" name="setUpPages" finished-at="2025-04-09T11:05:15 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testDetails()[pri:3, instance:adactin.test.BookingTest@6155d082]" started-at="2025-04-09T11:05:15 IST" name="testDetails" finished-at="2025-04-09T11:05:16 IST" depends-on-methods="adactin.test.BookingTest.testBookHotel" duration-ms="298" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Room type mismatch expected [Double] but found [Deluxe],
+Last name mismatch expected [Marcus] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Room type mismatch expected [Double] but found [Deluxe],
+Last name mismatch expected [Marcus] but found []
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at adactin.test.BookingTest.testDetails(BookingTest.java:92)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.BookingTest@6155d082]" started-at="2025-04-09T11:05:16 IST" name="screenshot" finished-at="2025-04-09T11:05:16 IST" duration-ms="374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDetails status=FAILURE method=BookingTest.testDetails()[pri:3, instance:adactin.test.BookingTest@6155d082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.BookingTest@6155d082]" started-at="2025-04-09T11:05:16 IST" name="setUpPages" finished-at="2025-04-09T11:05:16 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testGetOrderID()[pri:4, instance:adactin.test.BookingTest@6155d082]" started-at="2025-04-09T11:05:16 IST" name="testGetOrderID" finished-at="2025-04-09T11:05:16 IST" depends-on-methods="adactin.test.BookingTest.testBookHotel" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetOrderID -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.BookingTest@6155d082]" started-at="2025-04-09T11:05:16 IST" name="screenshot" finished-at="2025-04-09T11:05:16 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetOrderID status=SUCCESS method=BookingTest.testGetOrderID()[pri:4, instance:adactin.test.BookingTest@6155d082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.BookingTest@6155d082]" started-at="2025-04-09T11:05:16 IST" name="setUpPages" finished-at="2025-04-09T11:05:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testBookingWithInvalidCardDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:adactin.test.BookingTest@6155d082]" started-at="2025-04-09T11:05:16 IST" name="testBookingWithInvalidCardDetails" data-provider="invalidUserData" finished-at="2025-04-09T11:05:23 IST" duration-ms="6430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Marcus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[addr 123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[121]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookingWithInvalidCardDetails -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.BookingTest@6155d082]" started-at="2025-04-09T11:05:23 IST" name="screenshot" finished-at="2025-04-09T11:05:23 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBookingWithInvalidCardDetails status=SUCCESS method=BookingTest.testBookingWithInvalidCardDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:adactin.test.BookingTest@6155d082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:adactin.test.BookingTest@6155d082]" started-at="2025-04-09T11:05:23 IST" name="tearDown" finished-at="2025-04-09T11:05:23 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- adactin.test.BookingTest -->
+      <class name="adactin.test.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:adactin.test.LoginTest@24111ef1]" started-at="2025-04-09T11:03:17 IST" name="setup" finished-at="2025-04-09T11:03:24 IST" duration-ms="6562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.LoginTest@24111ef1]" started-at="2025-04-09T11:03:24 IST" name="setUpPages" finished-at="2025-04-09T11:03:24 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testLogo()[pri:1, instance:adactin.test.LoginTest@24111ef1]" started-at="2025-04-09T11:03:24 IST" name="testLogo" finished-at="2025-04-09T11:03:24 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.LoginTest@24111ef1]" started-at="2025-04-09T11:03:24 IST" name="screenshot" finished-at="2025-04-09T11:03:24 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogo status=SUCCESS method=LoginTest.testLogo()[pri:1, instance:adactin.test.LoginTest@24111ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:adactin.test.LoginTest@24111ef1]" started-at="2025-04-09T11:03:24 IST" name="setUpPages" finished-at="2025-04-09T11:03:24 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="isLoginBtnEnabled()[pri:2, instance:adactin.test.LoginTest@24111ef1]" started-at="2025-04-09T11:03:24 IST" name="isLoginBtnEnabled" finished-at="2025-04-09T11:03:24 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isLoginBtnEnabled -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:adactin.test.LoginTest@24111ef1]" started-at="2025-04-09T11:03:24 IST" name="screenshot" finished-at="2025-04-09T11:03:24 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=isLoginBtnEnabled status=SUCCESS method=LoginTest.isLoginBtnEnabled()[pri:2, instance:adactin.test.LoginTest@24111ef1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:adactin.test.LoginTest@24111ef1]" started-at="2025-04-09T11:03:24 IST" name="tearDown" finished-at="2025-04-09T11:03:25 IST" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:adactin.test.LoginTest@24111ef1]" started-at="2025-04-09T11:09:10 IST" name="tearDownTest" finished-at="2025-04-09T11:09:12 IST" duration-ms="1234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- adactin.test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
